@@ -1,0 +1,13 @@
+Variables and Data Types - Understanding const, let, and var, and working with data types like strings, numbers, arrays, and objects.
+
+Functions - Familiarity with regular functions, arrow functions, and higher-order functions like .map, .filter, and .reduce.
+
+ES6 Syntax - Destructuring, spread/rest operators, template literals, and import/export are widely used in React codebases.
+
+Array Methods - map, filter, reduce, find, and forEach are used extensively in React for rendering lists and managing data.
+
+Object Manipulation - Understanding how to access and manipulate properties within objects, which is common when dealing with component props and state.
+
+Asynchronous JavaScript - Promises and async/await are important for handling data fetching in React (e.g., fetching data from APIs).
+
+Understanding of this - React is component-based, so understanding this helps in handling context and props.
