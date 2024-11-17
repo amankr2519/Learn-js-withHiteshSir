@@ -17,12 +17,16 @@
         <div class="box" style="display: flex;" data-createdby="harry" data-conceptby="rohan" >Hey I am a box</div>
         <div class="box">Hey I am a box</div>
         <script>
-            // let div = document.createElement("div");
-            // div.innerHTML = "I have been inserted <b>by harry</b>"
-            // div.setAttribute("class", "created");
-            // document.querySelector(".container").before(div);
-            let cont = document.querySelector(".container")
-            cont.insertAdjacentHTML("beforebegin", "<b> I am under the water. Please h elp me here too much raining.... iuuuuooooo</b>")
+          // insertion method
+          let div =   document.createElement('div')
+          div.className = 'alert'
+          div.innerHTML = '<span> Hello </span>'
+          document.body.append(div)
+          document.querySelector('.alert').style.backgroundColor = 'red'
+
+          // insert Adjacent element
+          let cont = document.querySelector(".container")
+          cont.insertAdjacentHTML("beforebegin","<h1>insertAdjacentElement</h1>")
         </script>
     </div>
 </body>
