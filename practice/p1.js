@@ -4,7 +4,7 @@ let object = {
   branch : 'Aiml b2'
 }
 
-object = [1,2,3,4]
+// object = [1,2,3,4]
 
 firstName = 'Aman'
 
